@@ -160,7 +160,7 @@ export default function Chatbot() {
                 >
                   {/* Role Badge / Header for Messages */}
                   {m.role === "user" && (
-                    <div className="flex items-center gap-2 text-xs font-mono text-[#8b949e] mb-2 px-1">
+                    <div className="flex items-center justify-end pr-5 gap-2 text-xs font-mono text-[#8b949e] mb-2 px-1">
                       <User className="w-3.5 h-3.5" />
                       <span>User</span>
                     </div>
